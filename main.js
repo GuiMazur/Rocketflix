@@ -29,14 +29,3 @@ $("button").click(function(){
         document.querySelector('#overview').textContent = 'Movie not available';    
     });
   });
-
-
-//function getMovie(){
-//    let randomNumber = String(Math.floor(Math.random()*898143)+55);
-//    let movieURL = BASE_URL+randomNumber+'?'+API_KEY;
-//    $.getJSON(movieURL, function(data){
-//        movieData = data;  
-//    });
-//    console.log(movieData);    
-//};
-
