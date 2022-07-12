@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Rocketflix</title>
+</head>
+<body>
+    <main>
+        <img src="./assets/shuffle.svg" alt="" id="titleicon">
+        <h1 id="title">Não sabe o que assistir?</h1>
+        <div id="movie">
+            <img style="display: none;" src="./assets/poster-not-available.jpg" alt="" id="poster">
+            <div id="details">
+                <h2 id="movietitle"></h2>
+                <p id="overview"></p>
+            </div>
+        </div>
+        <button id="button">
+            <img src="./assets/shuffle.svg" alt="" id="buttonicon">
+            Encontrar filme
+        </button>
+        <p id="subtitle">Clique em "encontrar filme"...</p>    
+    </main>    
+    <script type="module" src="main.js"></script>
+</body>
+</html>
